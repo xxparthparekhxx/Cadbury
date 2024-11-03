@@ -2,7 +2,7 @@
 
 A modern landing page for CadburyCICD - a self-hosted CI/CD solution built with Next.js, React, and Tailwind CSS using the shadcn/ui component library.
 
-![CadburyCICD Preview](https://github.com/xxparthparekhxx/Cadbury/blob/f28f7a377afb298998b1a179fceb6c34be4bc2e9/public/landing.png)
+![CadburyCICD Preview](https://raw.githubusercontent.com/xxparthparekhxx/Cadbury/refs/heads/master/public/landing.png)
 
 ## Features
 - 🚀 **Self-Hosted**: Deploy on your own infrastructure with full control
