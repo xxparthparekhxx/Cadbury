@@ -25,12 +25,12 @@ export default function Home() {
       <div className="container mx-auto px-4 py-8">
         <nav className="flex justify-between items-center mb-16 pt-4">
           <div className="flex items-center gap-2">
-            <Server className="h-6 w-6 text-primary" />
+            <Server className="h-6 w-6 text-white" />
             <span className="text-2xl font-bold bg-clip-text  bg-gradient-to-r from-primary to-primary/60">
               CadburyCICD
             </span>
             <div className="flex items-center gap-2">
-              <Badge variant="secondary" className="mb-4">
+              <Badge variant="secondary" className="mb-4 bg-gray-900 text-white">
                 Coming Soon 🚀
               </Badge>
             </div>
@@ -66,19 +66,19 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6 mb-16">
             {[
               {
-                icon: <Server className="h-10 w-10 text-primary" />,
+                icon: <Server className="h-10 w-10 text-white" />,
                 title: "Self Hosted",
                 description:
                   "Deploy on your own infrastructure with complete data sovereignty",
               },
               {
-                icon: <Webhook className="h-10 w-10 text-primary" />,
+                icon: <Webhook className="h-10 w-10 text-white" />,
                 title: "Custom Webhooks",
                 description:
                   "Seamless integration with any git provider or external service",
               },
               {
-                icon: <Terminal className="h-10 w-10 text-primary" />,
+                icon: <Terminal className="h-10 w-10 text-white" />,
                 title: "Script Freedom",
                 description:
                   "Execute any build, test, or deployment script without limitations",
@@ -86,11 +86,11 @@ export default function Home() {
             ].map((feature, index) => (
               <Card
                 key={index}
-                className="border-2 border-muted hover:border-primary/20 transition-all duration-300"
+                className="border-2  border-muted bg- hover:border-white/20 transition-all duration-300"
               >
                 <CardHeader>
                   <div className="mb-4">{feature.icon}</div>
-                  <CardTitle className="text-xl mb-2">
+                  <CardTitle className="text-xl mb-2 text-white">
                     {feature.title}
                   </CardTitle>
                   <CardDescription className="text-sm">
@@ -103,11 +103,11 @@ export default function Home() {
 
           <Card
             id="waitlist"
-            className="p-8 border-2 border-muted bg-secondary/10 backdrop-blur-sm"
+            className="p-8 border-2 border-muted bg-/10 backdrop-blur-sm"
           >
             <CardHeader>
-              <CardTitle className="text-2xl mb-2">Get Early Access</CardTitle>
-              <CardDescription>
+              <CardTitle className="text-2xl mb-2 text-white">Get Early Access</CardTitle>
+              <CardDescription className="text-white">
                 Join the waitlist for exclusive beta access
               </CardDescription>
             </CardHeader>
